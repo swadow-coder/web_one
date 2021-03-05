@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Tajawal;
+}
+/*-----E NAVBAR-----*/
+nav{
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    box-shadow:  1px 1px 5px black;
+}
+#navlogo{
+    width: 20%;
+    float: left;
+    padding: 10px;
+    border-radius: 5px  ;
+    letter-spacing: 1px;
+}
+a:hover{
+     background-color: #9c9c9c;
+     color: white;
+     transition: 1s;
+}
+#navul{
+    width: 80%;
+    float: left;
+}
+li{
+    list-style-type: none;
+    display: inline-block ;
+    padding: 10px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+}
+#navlogo:hover{
+    background-color: #9c9c9c;
+    color: white;
+    transition: 1s;
+}
+/*-----S HEADER-----*/
+header img{
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+
+/*-----E HEADER-----*/
+/*--S MAIN--*/
+#about-contant{
+    width: 100%;
+    padding: 50px;
+}
+
+#about-contant-txt{
+    width: 50%;
+    float: left;
+}
+#about-contant-imag{
+    width: 50%;
+    float: left;
+}
+#menu-contant{
+    width: 100%;
+    padding: 50px;
+}
+#menu-contant-txt{
+    width: 50%;
+    float: left;
+}
+#menu-contant-imag{
+    width: 50%;
+    float: left;
+}
+#Contact-contant{
+    clear: both;
+    width: 100%;
+    padding: 100px;
+}
+.oamo{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    width: 100%;
+}
+#butt{
+    font-size: 15px;
+    background-color: #ffffff;
+    padding: 5px;
+    border: none;
+}
+#butt:hover{
+    background-color: #eeeeee;
+}
+/*--E MINE--*/
+footer{
+    background-color: #eeeeee;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
